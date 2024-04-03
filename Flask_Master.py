@@ -8,7 +8,7 @@ def hello():
 @app.route("/contacts/")
 def contacts():
     developer_name = "Ilon Mask"
-    developer_address = "ул. Московская, д.2, кв.103"
+    developer_address = "ул. Московская, д.2"
     developer_phone = "88005553535"
     return render_template('contacts.html', name = developer_name, phone = developer_phone, address = developer_address)
 
